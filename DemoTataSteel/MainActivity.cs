@@ -26,7 +26,7 @@ namespace DemoTataSteel
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.MyButton);
-
+            //comment
             button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
             MobileCenter.Start("d51922ec-2b3a-4676-933d-bd4ffafd0c51",
                     typeof(Analytics), typeof(Crashes));
